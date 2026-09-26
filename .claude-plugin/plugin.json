@@ -9,6 +9,9 @@
     "url": "https://vpndetection.io"
   },
   "homepage": "https://docs.vpndetection.io/integrations/mcp",
+  "documentationUrl": "https://docs.vpndetection.io/integrations/mcp",
+  "privacyPolicyUrl": "https://vpndetection.io/privacy",
+  "termsOfServiceUrl": "https://vpndetection.io/terms",
   "repository": "https://github.com/vpndetection-io/claude-plugin",
   "license": "MIT",
   "keywords": ["vpn detection", "proxy detection", "ip intelligence", "tor", "fraud prevention", "mcp"]
