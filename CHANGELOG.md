@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.2 - 2026-09-26
+
+### Fixes
+
+- Add the listing's icon, and its documentation, privacy and terms links ([`97663b2`](https://github.com/vpndetection-io/claude-plugin/commit/97663b28bc7fcd0503ffcdde8d429e0c84d8ccf7))
+
 ## 1.0.1 - 2026-09-26
 
 ### Fixes
