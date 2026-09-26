@@ -1,0 +1,15 @@
+{
+  "name": "vpndetection",
+  "displayName": "VPNDetection",
+  "version": "1.0.0",
+  "description": "Check IP addresses for VPNs, residential, datacenter and mobile proxies, Tor, public relays, hosting and CDNs, and look into the VPNDetection databases your organization is licensed for.",
+  "author": {
+    "name": "VPNDetection",
+    "email": "support@vpndetection.io",
+    "url": "https://vpndetection.io"
+  },
+  "homepage": "https://docs.vpndetection.io/integrations/mcp",
+  "repository": "https://github.com/vpndetection-io/claude-plugin",
+  "license": "MIT",
+  "keywords": ["vpn detection", "proxy detection", "ip intelligence", "tor", "fraud prevention", "mcp"]
+}

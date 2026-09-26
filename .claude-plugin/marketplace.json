@@ -1,0 +1,15 @@
+{
+  "name": "vpndetection",
+  "description": "The VPNDetection plugin for Claude: VPN, proxy, Tor, relay, hosting and CDN detection for IP addresses.",
+  "owner": {
+    "name": "VPNDetection",
+    "email": "support@vpndetection.io"
+  },
+  "plugins": [
+    {
+      "name": "vpndetection",
+      "source": "./",
+      "description": "Check IP addresses for VPNs, proxies, Tor, relays, hosting and CDNs, and look into your licensed VPNDetection databases."
+    }
+  ]
+}

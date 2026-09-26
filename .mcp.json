@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vpndetection": {
+      "type": "http",
+      "url": "https://mcp.vpndetection.io/mcp"
+    }
+  }
+}
