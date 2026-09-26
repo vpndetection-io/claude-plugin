@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.1 - 2026-09-26
+
+### Fixes
+
+- Say a disconnect takes effect within about a minute ([`0969a4c`](https://github.com/vpndetection-io/claude-plugin/commit/0969a4ced4037db2d84adf1928db966d05b77bfc))
+
 ## 1.0.0 - 2026-09-26
 
 ### Features
