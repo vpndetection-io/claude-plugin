@@ -2,6 +2,13 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.3 - 2026-09-27
+
+### Fixes
+
+- Tell an evaluation sample from the database itself ([`a4fbfdb`](https://github.com/vpndetection-io/claude-plugin/commit/a4fbfdbd1f3c31f7103c5d40ca67e90b80a4c730))
+- Open and close the README like the SDKs, the CLI and the MCP server ([`0d633fe`](https://github.com/vpndetection-io/claude-plugin/commit/0d633fe67b79fd82f74ce2e3e018402cdf3d5098))
+
 ## 1.0.2 - 2026-09-26
 
 ### Fixes
