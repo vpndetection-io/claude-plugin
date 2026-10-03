@@ -2,6 +2,13 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.4 - 2026-10-03
+
+### Fixes
+
+- Describe any published database, licensed or not ([`c85561a`](https://github.com/vpndetection-io/claude-plugin/commit/c85561a2d2befd68b771be53dd03209a6eeadb6f))
+- Name the listing's icon in the manifest ([`5f99939`](https://github.com/vpndetection-io/claude-plugin/commit/5f99939fce4c1112015cd73c8547ff68e10d4acb))
+
 ## 1.0.3 - 2026-09-27
 
 ### Fixes
