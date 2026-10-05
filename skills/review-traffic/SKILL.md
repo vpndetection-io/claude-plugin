@@ -9,7 +9,7 @@ description: Screen a batch of signups, logins, orders, reviews or log lines for
 2. Look up every distinct address with a single `lookup_ips` call. Read `coverage` first: a category the key's plan does not include was not checked, so never report those records as clean on that category.
 3. Join the results back onto the records and sort them into what they are:
    - `is_resproxy`, `is_mobproxy`: residential or mobile proxy. The address looks like a home or phone connection but is resold, which is the strongest signal of the set.
-   - `is_vpn`, `is_tor`: a VPN or a Tor exit. Deliberate anonymization, common among ordinary privacy-minded users too.
+   - `is_vpn`, `is_tor`: a VPN or a Tor node. Deliberate anonymization, common among ordinary privacy-minded users too.
    - `is_dcproxy`, `is_hosting`: a datacenter proxy or a hosting range. Usually automation, scripts or servers rather than a person at a device.
    - `is_relay`: a public privacy relay such as iCloud Private Relay, used by ordinary people by default. Weigh it lightly.
    - `is_cdn`: a CDN range. Usually a service fetching on someone's behalf.
