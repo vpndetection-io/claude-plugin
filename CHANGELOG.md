@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.5 - 2026-10-06
+
+### Fixes
+
+- Describe `is_tor` as any Tor node, not only an exit ([`791174a`](https://github.com/vpndetection-io/claude-plugin/commit/791174a3e8d3a58a68f870b4dcb656c7dc6cb1b0))
+
 ## 1.0.4 - 2026-10-03
 
 ### Fixes
