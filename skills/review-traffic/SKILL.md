@@ -11,6 +11,7 @@ description: Screen a batch of signups, logins, orders, reviews or log lines for
    - `is_resproxy`, `is_mobproxy`: residential or mobile proxy. The address looks like a home or phone connection but is resold, which is the strongest signal of the set.
    - `is_vpn`, `is_tor`: a VPN or a Tor node. Deliberate anonymization, common among ordinary privacy-minded users too.
    - `is_dcproxy`, `is_hosting`: a datacenter proxy or a hosting range. Usually automation, scripts or servers rather than a person at a device.
+   - `is_pubproxy`: a public proxy, one anyone can use for free, so read it like a datacenter proxy. Where the result carries the `pubproxy` detail, a recent `last_usable` counts for more than the match alone, since most public proxies work only some of the time.
    - `is_relay`: a privacy relay such as iCloud Private Relay, or an enterprise web gateway such as Zscaler: ordinary people with a privacy setting on, or at work behind their company's gateway. Weigh it lightly.
    - `is_cdn`: a CDN range. Usually a service fetching on someone's behalf.
 4. Report a count per category, then a table of the flagged records with the identifying fields, the address, the category and the provider where known. Then call out patterns that only show up across records: one provider or one address behind many accounts, bursts in time, or several accounts sharing an address.
