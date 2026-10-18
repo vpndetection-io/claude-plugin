@@ -2,6 +2,17 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.1.0 - 2026-10-18
+
+### Features
+
+- review-traffic weighs `is_pubproxy`, a public proxy ([`8108c55`](https://github.com/vpndetection-io/claude-plugin/commit/8108c5542febdb1ba92c7b35cae3cd9893742278))
+
+### Fixes
+
+- review-traffic reads `is_relay` as a privacy relay or an enterprise web gateway ([`31a7e7d`](https://github.com/vpndetection-io/claude-plugin/commit/31a7e7d9b271fc8499d9f5b928d95ea9416f5f6a))
+- Say the database tools need a key with `db.download` ([`30d0d7c`](https://github.com/vpndetection-io/claude-plugin/commit/30d0d7c272f9fa1be472e338127c7e989124929d))
+
 ## 1.0.5 - 2026-10-06
 
 ### Fixes
