@@ -5,7 +5,7 @@
 
 The official [VPNDetection](https://vpndetection.io) plugin for [Claude](https://claude.com).
 
-Ask Claude whether an IP address belongs to a VPN, a residential, datacenter or mobile proxy, a Tor node, a public relay, a hosting provider or a CDN, and look into any of the VPNDetection databases and which ones your organization holds. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
+Ask Claude whether an IP address belongs to a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay or web gateway, a hosting provider or a CDN, and look into any of the VPNDetection databases and which ones your organization holds. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
 
 ## Getting Started
 
