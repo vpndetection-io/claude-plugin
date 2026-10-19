@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.1.1 - 2026-10-19
+
+### Fixes
+
+- Name public proxies and web gateways in the descriptions ([`4e62454`](https://github.com/vpndetection-io/claude-plugin/commit/4e6245452d7b8434e88a62d3b4f9d74b7313255a))
+
 ## 1.1.0 - 2026-10-18
 
 ### Features
