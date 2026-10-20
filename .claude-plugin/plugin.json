@@ -1,7 +1,7 @@
 {
   "name": "vpndetection",
   "displayName": "VPNDetection",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Check IP addresses for VPNs, residential, datacenter, mobile and public proxies, Tor, privacy relays and web gateways, hosting and CDNs, and look into the VPNDetection databases and which ones your organization holds.",
   "author": {
     "name": "VPNDetection",

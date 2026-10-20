@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.0 - 2026-10-20
+
+### Features
+
+- Read location and asn when screening traffic ([`43dcf6b`](https://github.com/vpndetection-io/claude-plugin/commit/43dcf6bd6ce64ec418aaa8d6b1a65ea5b1a80dfe))
+
 ## 1.1.1 - 2026-10-19
 
 ### Fixes
