@@ -14,7 +14,9 @@ description: Screen a batch of signups, logins, orders, reviews or log lines for
    - `is_pubproxy`: a public proxy, one anyone can use for free, so read it like a datacenter proxy. Where the result carries the `pubproxy` detail, a recent `last_usable` counts for more than the match alone, since most public proxies work only some of the time.
    - `is_relay`: a privacy relay such as iCloud Private Relay, or an enterprise web gateway such as Zscaler: ordinary people with a privacy setting on, or at work behind their company's gateway. Weigh it lightly.
    - `is_cdn`: a CDN range. Usually a service fetching on someone's behalf.
-4. Report a count per category, then a table of the flagged records with the identifying fields, the address, the category and the provider where known. Then call out patterns that only show up across records: one provider or one address behind many accounts, bursts in time, or several accounts sharing an address.
+
+   Every result from a key also carries `location` (the country, its continent and timezone) and `asn` (the network: its number, name, type and announced prefix). Neither is a verdict, but both group the records: a country that doesn't match the account's, one network behind many accounts, or an `asn.type` of `hosting` where the key's plan doesn't include `is_hosting`.
+4. Report a count per category, then a table of the flagged records with the identifying fields, the address, the category, the provider where known, and the country and network. Then call out patterns that only show up across records: one provider, one network or one address behind many accounts, bursts in time, or several accounts sharing an address.
 5. Offer the full joined table as CSV if the person wants to act on it.
 
 Keep the conclusions to what the data shows. A flag says the network is anonymized, not that the person is acting in bad faith, so present the evidence and let the person asking make the call unless they ask you to recommend one.
