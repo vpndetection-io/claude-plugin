@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.1 - 2026-10-21
+
+### Fixes
+
+- Name the Open databases in the database skills ([`5ad16a7`](https://github.com/vpndetection-io/claude-plugin/commit/5ad16a731e330303600be06b4f5a30f3c757998a))
+
 ## 1.2.0 - 2026-10-20
 
 ### Features
