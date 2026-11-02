@@ -39,7 +39,7 @@ To disconnect Claude, remove it under Connected applications at https://app.vpnd
 
 ## What it sends
 
-The plugin runs nothing on your machine. Claude sends the IP addresses and database ids you ask about to `https://mcp.vpndetection.io/mcp`, which calls the VPNDetection API with the key you picked and returns the answer. Each request is logged against that key as any API call is. Our privacy policy is at https://vpndetection.io/privacy, and questions go to support@vpndetection.io.
+The plugin runs nothing on your machine. Claude sends the IP addresses and database IDs you ask about to `https://mcp.vpndetection.io/mcp`, which calls the VPNDetection API with the key you picked and returns the answer. Each request is logged against that key as any API call is. Our privacy policy is at https://vpndetection.io/privacy, and questions go to support@vpndetection.io.
 
 ## Other Libraries
 

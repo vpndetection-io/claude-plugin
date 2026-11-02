@@ -5,7 +5,7 @@ description: Screen a batch of signups, logins, orders, reviews or log lines for
 
 # Review traffic with VPNDetection
 
-1. Find the IP address in each record, and keep whatever identifies the record (user, email, order id, timestamp) beside it. If a record has more than one address, use the client address, not a server or proxy hop, and say which column you used.
+1. Find the IP address in each record, and keep whatever identifies the record (user, email, order ID, timestamp) beside it. If a record has more than one address, use the client address, not a server or proxy hop, and say which column you used.
 2. Look up every distinct address with a single `lookup_ips` call. Read `coverage` first: a category the key's plan does not include was not checked, so never report those records as clean on that category.
 3. Join the results back onto the records and sort them into what they are:
    - `is_resproxy`, `is_mobproxy`: residential or mobile proxy. The address looks like a home or phone connection but is resold, which is the strongest signal of the set.
