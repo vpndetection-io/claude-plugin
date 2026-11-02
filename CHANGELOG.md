@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.2 - 2026-11-02
+
+### Fixes
+
+- Write ID and IDs, not id and ids ([`d60f9b8`](https://github.com/vpndetection-io/claude-plugin/commit/d60f9b8974546ba15e755b157cab0fcf8ac03909))
+
 ## 1.2.1 - 2026-10-21
 
 ### Fixes
