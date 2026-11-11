@@ -18,7 +18,7 @@ In Claude Code:
 /plugin install vpndetection@vpndetection
 ```
 
-The first time a tool runs, you'll be asked to sign in with your VPNDetection account and pick the API key Claude should use. Claude never sees the key: our MCP server uses it on your behalf, and requests count against that key's plan like any other API call. The database tools need a key with the `db.download` scope, which your organization's `Default` key has. You need a VPNDetection account for this; the free plan works, and returns `ip` and `is_vpn` with Tor and relay detection, where the address is and the network that announces it.
+The first time a tool runs, you'll be asked to sign in with your VPNDetection account and pick the API key Claude should use. Claude never sees the key: our MCP server uses it on your behalf, and requests count against that key's plan like any other API call. The database tools need a key with the `db.download` scope, which your organization's `Default` key has. You need a VPNDetection account for this, but no paid plan: without one, every lookup returns `ip` and `is_vpn` with Tor and relay detection, where the address is and the network that announces it, and the first 100 each day return every field.
 
 To disconnect Claude, remove it under Connected applications at https://app.vpndetection.io/settings/account/sessions. Access ends within about a minute.
 
