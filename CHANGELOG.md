@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.4 - 2026-11-12
+
+### Fixes
+
+- Say a list of more than 10 addresses needs a paid plan ([`97d8977`](https://github.com/vpndetection-io/claude-plugin/commit/97d89775175456273b16f0e0107dd8ef43520083))
+
 ## 1.2.3 - 2026-11-11
 
 ### Fixes
