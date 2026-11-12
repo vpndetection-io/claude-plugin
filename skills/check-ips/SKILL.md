@@ -6,7 +6,7 @@ description: Check whether IP addresses belong to a VPN, a residential, datacent
 # Check IP addresses with VPNDetection
 
 1. Collect every IPv4 and IPv6 address in what you were given and drop duplicates. If there are none, ask for them.
-2. For one address call `lookup_ip`. For more than one, call `lookup_ips` once with the whole list: it batches long lists itself, so never split it or loop over `lookup_ip`.
+2. For one address call `lookup_ip`. For more than one, call `lookup_ips` once with the whole list: it batches long lists itself, so never split it or loop over `lookup_ip`. A batch needs a key on a paid plan. On any other key, a list of up to 10 is still answered, one address at a time, and a longer one comes back `bad_request` on every address: say a list that long needs a paid plan, and offer to check the 10 the person cares about most.
 3. Read `coverage` before you conclude anything. A field listed in `coverage.not_included` was not returned because of the plan behind the API key, which is not the same as "no". Say "not covered by this key's plan" for it, never "not a VPN". If the person needs those fields, `my_entitlement` shows the plan and field tier.
 4. A private or reserved address comes back with `is_bogon: true`. Report it as an internal address, not as a clean one.
 5. Report what came back:
