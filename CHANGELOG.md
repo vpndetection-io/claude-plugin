@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.5 - 2026-11-14
+
+### Fixes
+
+- Name the support page, so the directory stops guessing it ([`5676d8c`](https://github.com/vpndetection-io/claude-plugin/commit/5676d8cf02f650bd32039151a3781ba1e6884b43))
+
 ## 1.2.4 - 2026-11-12
 
 ### Fixes
