@@ -2,6 +2,18 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.3.0 - 2026-11-20
+
+### Features
+
+- review-traffic reads the service, carrier, satellite and company members ([`499e4d1`](https://github.com/vpndetection-io/claude-plugin/commit/499e4d1c17ed25a2355065f86ac74e31de279650))
+
+### Fixes
+
+- README and listing: the free trial without a count ([`9ee263c`](https://github.com/vpndetection-io/claude-plugin/commit/9ee263c4583ad012d0de9dfcd7361ef973d6d9fd))
+- Name anycast, carrier and satellite space and the servers on an address ([`4774764`](https://github.com/vpndetection-io/claude-plugin/commit/4774764195a15e316ee0feafeb17defe9697b809))
+- README: add VPNDetection from Claude's directory ([`485c636`](https://github.com/vpndetection-io/claude-plugin/commit/485c636b81ba06e10454e1749d9b41bd4255ff78))
+
 ## 1.2.5 - 2026-11-14
 
 ### Fixes
