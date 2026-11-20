@@ -1,6 +1,6 @@
 ---
 name: check-ips
-description: Check whether IP addresses belong to a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay or web gateway, a hosting provider or a CDN, using VPNDetection. Use when someone gives you one or more IP addresses, or text that contains them, and asks whether they are anonymized, risky, from a VPN or proxy, or who operates them.
+description: Check whether IP addresses belong to a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay or web gateway, a hosting provider or a CDN, whether they are anycast or a mobile carrier's or satellite operator's space, and which servers answer on them, using VPNDetection. Use when someone gives you one or more IP addresses, or text that contains them, and asks whether they are anonymized, risky, from a VPN or proxy, or who operates them.
 ---
 
 # Check IP addresses with VPNDetection
