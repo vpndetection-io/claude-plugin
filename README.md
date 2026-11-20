@@ -9,7 +9,7 @@ Ask Claude whether an IP address belongs to a VPN, a residential, datacenter, mo
 
 ## Getting Started
 
-On claude.ai, in the desktop app or in Cowork, add VPNDetection from the directory, then connect it on the plugin's Connectors tab.
+On claude.ai, in the desktop app or in Cowork, add VPNDetection from [Claude's directory](https://claude.ai/directory/vpndetection) and connect it.
 
 In Claude Code:
 
