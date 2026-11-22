@@ -2,6 +2,16 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.4.0 - 2026-11-22
+
+### Features
+
+- check-ips and review-traffic read is_bot and whose bot it is ([`b93d4d3`](https://github.com/vpndetection-io/claude-plugin/commit/b93d4d3cf24e689c469fc3288fedd6d9e8ddcdf9))
+
+### Fixes
+
+- Name the bots that use an address ([`290dcee`](https://github.com/vpndetection-io/claude-plugin/commit/290dcee99f40d8931ca90f7c044a066ab38e5872))
+
 ## 1.3.0 - 2026-11-20
 
 ### Features
