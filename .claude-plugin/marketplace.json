@@ -1,6 +1,6 @@
 {
   "name": "vpndetection",
-  "description": "The VPNDetection plugin for Claude: VPN, proxy, Tor, relay, web gateway, hosting, CDN, anycast, carrier and satellite detection for IP addresses, and the servers on them.",
+  "description": "The VPNDetection plugin for Claude: VPN, proxy, Tor, relay, web gateway, hosting, CDN, bot, anycast, carrier and satellite detection for IP addresses, and the servers on them.",
   "owner": {
     "name": "VPNDetection",
     "email": "support@vpndetection.io"
@@ -9,7 +9,7 @@
     {
       "name": "vpndetection",
       "source": "./",
-      "description": "Check IP addresses for VPNs, proxies, Tor, relays and web gateways, hosting and CDNs, anycast, carrier and satellite space and the servers on them, and look into the VPNDetection databases and which ones you hold."
+      "description": "Check IP addresses for VPNs, proxies, Tor, relays and web gateways, hosting and CDNs, bots, anycast, carrier and satellite space and the servers on them, and look into the VPNDetection databases and which ones you hold."
     }
   ]
 }

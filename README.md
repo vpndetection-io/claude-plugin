@@ -5,7 +5,7 @@
 
 The official [VPNDetection](https://vpndetection.io) plugin for [Claude](https://claude.com).
 
-Ask Claude whether an IP address belongs to a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay or web gateway, a hosting provider or a CDN; whether it is anycast, or a mobile carrier's or satellite operator's space; whether an SSH, mail or web server or an open DNS resolver answered on it, or a BitTorrent client was seen on it; and look into any of the VPNDetection databases and which ones your organization holds. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
+Ask Claude whether an IP address belongs to a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay or web gateway, a hosting provider or a CDN; whether a crawler or other bot uses it, and whose; whether it is anycast, or a mobile carrier's or satellite operator's space; whether an SSH, mail or web server or an open DNS resolver answered on it, or a BitTorrent client was seen on it; and look into any of the VPNDetection databases and which ones your organization holds. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ In Claude Code:
 /plugin install vpndetection@vpndetection
 ```
 
-The first time a tool runs, you'll be asked to sign in with your VPNDetection account and pick the API key Claude should use. Claude never sees the key: our MCP server uses it on your behalf, and requests count against that key's plan like any other API call. The database tools need a key with the `db.download` scope, which your organization's `Default` key has. You need a VPNDetection account for this, but no paid plan: without one, every lookup returns `ip` and `is_vpn` with Tor and relay detection, whether it is anycast, its reverse DNS name, where the address is and the network that announces it, and the account's trial returns every field.
+The first time a tool runs, you'll be asked to sign in with your VPNDetection account and pick the API key Claude should use. Claude never sees the key: our MCP server uses it on your behalf, and requests count against that key's plan like any other API call. The database tools need a key with the `db.download` scope, which your organization's `Default` key has. You need a VPNDetection account for this, but no paid plan: without one, every lookup returns `ip` and `is_vpn` with Tor and relay detection, whether it is anycast or a bot uses it, its reverse DNS name, where the address is and the network that announces it, and the account's trial returns every field.
 
 To disconnect Claude, remove it under Connected applications at https://app.vpndetection.io/settings/account/sessions. Access ends within about a minute.
 
