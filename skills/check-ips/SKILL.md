@@ -11,7 +11,7 @@ description: Check whether IP addresses belong to a VPN, a residential, datacent
 4. A private or reserved address comes back with `is_bogon: true`. Report it as an internal address, not as a clean one.
 5. Report what came back:
    - One address: a one-line verdict, then each positive classification with its provider name when the result has one.
-   - For `is_bot`, name whose bot it is from `bot.provider_name` and say whether `bot.verified`: a verified crawler is its operator's own, while a `spoofed` or `undeclared` one is worth saying plainly.
+   - For `is_bot`, name the operator from `bot.provider_name` and say whether `bot.verified`: a verified crawler is its operator's own, while for any other it's only the operator the bot claimed to be, and a `spoofed` or `undeclared` one is worth saying plainly.
    - Several: a table of address, what it is (VPN, residential proxy, Tor and so on, or nothing found), provider, and notes, with flagged addresses first, then one line counting each category.
    - Quote raw JSON only when asked.
 6. If `lookup_ips` returns an error in place of a result for an address, show it in that row and keep the rest. If a call is refused with `unauthorized`, the connection needs signing in again. If it is refused for going over the plan's allowance, check `my_entitlement` and say when it resets.
