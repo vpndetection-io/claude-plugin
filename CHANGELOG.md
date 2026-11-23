@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.4.1 - 2026-11-23
+
+### Fixes
+
+- A bot's operator is only claimed unless it's verified ([`f62b054`](https://github.com/vpndetection-io/claude-plugin/commit/f62b054f11009d4ff10a62ce04fd2f494a1f1673))
+
 ## 1.4.0 - 2026-11-22
 
 ### Features
