@@ -2,6 +2,16 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.5.0 - 2026-11-24
+
+### Features
+
+- check-ips and review-traffic check the user agent an address sent ([`1d6c384`](https://github.com/vpndetection-io/claude-plugin/commit/1d6c3849ccb9986773737e173f3f69a6919908ca))
+
+### Fixes
+
+- README: the full logo in the footer, light and dark ([`40d34a0`](https://github.com/vpndetection-io/claude-plugin/commit/40d34a07a27b2da7ad1431d3b2c30e65ec62667a))
+
 ## 1.4.1 - 2026-11-23
 
 ### Fixes
