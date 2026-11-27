@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.5.1 - 2026-11-27
+
+### Fixes
+
+- review-traffic and the README: a bot and the network's type are a paid plan's ([`df54769`](https://github.com/vpndetection-io/claude-plugin/commit/df54769a52ff87a7ea5d41ceebe69f0ae794b249))
+
 ## 1.5.0 - 2026-11-24
 
 ### Features
